@@ -1,0 +1,36 @@
+{
+  "name": "hexo-cloudflare-r2-media",
+  "version": "0.1.0",
+  "description": "Hexo deployer for Cloudflare R2 media uploads with HTML rewriting, incremental sync, and stale object cleanup.",
+  "main": "index.js",
+  "keywords": [
+    "hexo",
+    "hexo-plugin",
+    "hexo-deployer",
+    "cloudflare-r2",
+    "r2",
+    "s3"
+  ],
+  "homepage": "https://github.com/Feng1909/hexo-cloudflare-r2-media",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feng1909/hexo-cloudflare-r2-media.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Feng1909/hexo-cloudflare-r2-media/issues"
+  },
+  "author": "Feng Yunji",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1030.0",
+    "mime-types": "^3.0.2"
+  }
+}
