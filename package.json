@@ -1,6 +1,6 @@
 {
   "name": "hexo-cloudflare-r2-media",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hexo deployer for Cloudflare R2 media uploads with HTML rewriting, incremental sync, and stale object cleanup.",
   "main": "index.js",
   "keywords": [
